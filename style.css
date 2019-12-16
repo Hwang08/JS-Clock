@@ -1,8 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body{
   background-color: #2c3e50;
   /* transition: color 0.5s ease-in-out; */
   color: azure;
 }
+
+ul{
+  list-style: none;
+}
+
+h1{
+  font-size: 7rem;
+}
+
+ul{
+  margin-top: 10px;
+}
+
+h4{
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.name-input{
+  appearance: none;
+  background: none;
+  border:none;
+  color: white;
+  font-size: 36px;
+  border-bottom: 3px solid rgba(255,255,255,0.8);
+  margin-bottom: 20px;
+}
+
+.name-input::placeholder{
+  color:rgba(255,255,255,0.9);
+  opacity:0.9;
+}
+
+input{
+  background: none;
+  appearance: none;
+  text-align: center;
+  border: 0;
+  font-size: 22px;
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+input::placeholder{ /* Chrome, Firefox, Opera, Safari 10.1+*/
+  color: white;
+  opacity: 1; /*Firefox*/
+}
+
+:ms-input-placeholder{ /* Internet Explorer 10-11*/
+  color: white;
+}
+
+input:focus,
+input:active {
+  outline: none;
+}
+
+li{
+  font-size: 19px;
+}
+
+li button{
+  font-size: 16px;
+  /* color: black;
+  background-color: none;
+  border-color: none; */
+  border-color: rgba(0,0,0,0);
+  background-color: rgba(0,0,0,0);
+  margin-right: 7px;
+  cursor: pointer;
+}
+
+.js-toDoForm{
+  margin-bottom: 30px;
+}
+
+.js-weather{
+  color: azure;
+  position: absolute;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 10px;
+  padding: 5px;
+  top: 10px;
+  right: 20px;
+}
+
+.container{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* position: relative;
+  text-align: center; */
+}
+
+.inner-container{
+  text-align: center;
+  /* background-color: rgba(0,0,0,0.5);
+  border-radius: 30px; */
+}
+
 .btn{
   cursor: pointer;
 }

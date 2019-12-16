@@ -1,6 +1,8 @@
 # JS-Clock
 
-Clone of [Momentum](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca?hl=en), [Momentum](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca?hl=en) is a google chrome browser extension.
+Clone of [Momentum](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca?hl=en).
+
+[Momentum](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca?hl=en) is a google chrome browser extension.
 
 Uses [Open Weather Map API](openweathermap.org/api) to show weather based on your geo location.
 

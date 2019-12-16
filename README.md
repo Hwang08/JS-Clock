@@ -1,8 +1,6 @@
 # JS-Clock
 
-NOT FINISHED!!! I HAVE TO MODIFY THE CSS.
-
-Momentom is a clone of the google chrome browser extension [Momentum](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca?hl=en).
+Clone of [Momentum](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca?hl=en) is a google chrome browser extension.
 
 Uses [Open Weather Map API](openweathermap.org/api) to show weather based on your geo location.
 

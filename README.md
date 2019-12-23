@@ -1,10 +1,10 @@
 # JS-Clock
 
-NOT FINISHED!!! I HAVE TO MODIFY THE CSS.
+Clone of [Momentum](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca?hl=en).
 
-Momentom is a clone of the google chrome browser extension [Momentum](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca?hl=en).
+[Momentum](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca?hl=en) is a google chrome browser extension.
 
-Uses [Open Weather Map API](openweathermap.org/api) to show weather based on your geo location.
+Uses [Open Weather Map API](https://openweathermap.org/api) to show weather based on the users geolocation.
 
 To Do List is dynamically created, saved and deleted from the local storage of the user.
 

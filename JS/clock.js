@@ -5,7 +5,7 @@ function getTime() {
   const date = new Date(); //instantiate Date objet and set it to a constant variable
   const seconds = date.getSeconds(); // Gets the date objects seconds value into a const
   const minutes = date.getMinutes();
-  const hours = date.getHours() % 12;
+  const hours = (date.getHours() + 11) % 12 +1;
   // Ternary operator (conditional statement ? "if code block" : "else code block")
   clockTitle.innerText = `${hours < 10 ? `0${hours}` : hours}:${minutes < 10 ? `0${minutes}` : minutes}:${seconds < 10 ? `0${seconds}` : seconds}`;
 }
